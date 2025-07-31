@@ -349,6 +349,7 @@ GameObject:
   m_Component:
   - component: {fileID: 316685079}
   - component: {fileID: 316685082}
+  - component: {fileID: 316685084}
   - component: {fileID: 316685081}
   - component: {fileID: 316685080}
   - component: {fileID: 316685083}
@@ -469,6 +470,18 @@ MonoBehaviour:
   _oriantationTransform: {fileID: 1674091571}
   _playerVisualTransform: {fileID: 7200323367561194226}
   _rotationSpeed: 7
+--- !u!114 &316685084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 316685078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d334ed2c47891844a19d5dbe921eda3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -652,10 +665,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 418914b2b00d03046a2321bff46f1a35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _playerTransform: {fileID: 0}
-  _oriantationTransform: {fileID: 0}
-  _playerVisualTransform: {fileID: 0}
-  _rotationSpeed: 0
+  _playerTransform: {fileID: 316685079}
+  _oriantationTransform: {fileID: 1674091571}
+  _playerVisualTransform: {fileID: 7200323367561194226}
+  _rotationSpeed: 7
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
